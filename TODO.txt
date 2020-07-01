@@ -1,0 +1,5 @@
+STYLE:
+    > use images to link to different pages
+
+ABOUT ME:
+    > link mail
