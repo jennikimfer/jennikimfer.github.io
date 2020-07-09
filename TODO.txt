@@ -1,3 +1,7 @@
+REFERENCE:
+    > navigation > https://www.w3.org/wiki/Creating_multiple_pages_with_navigation_menus
+    > general build steps > https://www.learnhowtoprogram.com/user-interfaces/ui-development-basics/multi-page-html-sites
+
 STYLE:
     > use images to link to different pages
 

@@ -1,0 +1,42 @@
+@font-face {
+    font-family: JuliusSansOne;
+    src: url(https://fonts.googleapis.com/css2?family=Julius+Sans+One);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(https://fonts.googleapis.com/css?family=Raleway);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font: JuliusSansOne;
+    color: white;
+    text-align: left;
+}
+
+body {
+    background-color: tan;
+    margin: 30px;
+}
+
+p {
+    font-family: Raleway;
+    text-align: left;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 50px
+}
+
+header h1 {
+    background: transparent white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 20px;
+    float: left;
+}
