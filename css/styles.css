@@ -32,11 +32,32 @@ p {
     margin: 50px
 }
 
-header h1 {
-    background: transparent white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-    height: 20px;
-    float: left;
+/* class selectors */
+.entry {
+    text-align: left;
 }
+
+.nav {
+    background-color: white;
+    opacity: 0.3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    display: inline-block;
+}
+
+/* links */
+a.nav:link {
+    background-color: white;
+    color: black;
+    border: hidden;
+    padding: 10px 15px;
+    text-align: center;
+}
+a.nav:hover {
+    background-color: brown;
+    color: white;
+}
+
