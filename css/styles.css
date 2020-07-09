@@ -32,6 +32,16 @@ p {
     margin: 50px
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: stick;
+    top: 0;
+}
+
 /* class selectors */
 .entry {
     text-align: left;
@@ -49,14 +59,14 @@ p {
 }
 
 /* links */
-a.nav:link {
-    background-color: white;
+li a {
+    display: white;
     color: black;
     border: hidden;
     padding: 10px 15px;
     text-align: center;
 }
-a.nav:hover {
+li a:hover {
     background-color: brown;
     color: white;
 }
