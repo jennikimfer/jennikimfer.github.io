@@ -7,6 +7,21 @@ html {
     padding: 0;
 }
 
+h1 {
+    font-family: "Julius Sans One";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-family: "Julius Sans One";
+    font-size: 20 px;
+    color: black;
+    text-align: center;
+}
+
 h3 {
     font-family: "Julius Sans One";
     color: white;
@@ -36,19 +51,12 @@ ul {
     top: 0;
 }
 
+
 /* class selectors */
 .entry {
     text-align: left;
 }
 
-/* main screen */
-.main {
-    font-family: "Julius Sans One";
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
 
 /* for navigation top toolbar */
 .nav {
@@ -83,6 +91,7 @@ ul {
     color: white;
     text-decoration: none;
 }
+
 
 
 
