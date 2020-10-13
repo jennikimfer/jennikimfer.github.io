@@ -14,7 +14,7 @@ html {
 }
 
 h3 {
-    font: JuliusSansOne;
+    font-family: JuliusSansOne;
     color: white;
     text-align: left;
 }
@@ -25,8 +25,6 @@ body {
 }
 
 p {
-    /* erase color */
-    color: red;
     font-family: Raleway;
     text-align: left;
     border: 2px solid black;
