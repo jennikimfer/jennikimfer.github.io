@@ -7,3 +7,6 @@ STYLE:
 
 ABOUT ME:
     > link mail
+
+LATER:
+    > reponsive webdesign

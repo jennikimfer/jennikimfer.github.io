@@ -25,6 +25,8 @@ body {
 }
 
 p {
+    /* erase color */
+    color: red;
     font-family: Raleway;
     text-align: left;
     border: 2px solid black;
