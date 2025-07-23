@@ -365,8 +365,45 @@ footer {
         width: 100%;
     }
     
+    /* Mobile text sizing */
+    body {
+        font-size: 14px;
+    }
+    
+    section h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
     section h2:not(.subtitle) {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    section p {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    section ul li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .date {
+        font-size: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .breadcrumb {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
     }
     
     .container {
@@ -377,6 +414,7 @@ footer {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        font-size: 0.9rem;
     }
     
     .content-wrapper {
