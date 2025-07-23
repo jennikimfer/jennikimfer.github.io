@@ -7,7 +7,7 @@
     "build": "node build.js",
     "dev": "python3 -m http.server 8000",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist && scp -r dist/* jennkim@athena.dialup.mit.edu:/afs/athena.mit.edu/user/j/e/jennkim/www"
   },
   "keywords": [
     "website",
