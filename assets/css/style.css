@@ -407,7 +407,8 @@ footer {
     }
     
     .container {
-        padding: 0 1rem;
+        max-width: 100%;
+        padding: 0;
     }
     
     .footer-content {
@@ -418,12 +419,23 @@ footer {
     }
     
     .content-wrapper {
-        max-width: 95vw;
-        padding: 1.5rem;
+        max-width: 98vw;
+        padding: 1rem 0.5rem;
     }
     
     .footer-content {
         max-width: 95vw;
-        padding: 1.5rem;
+        padding: 1rem;
+    }
+    
+    /* Reduce section padding on mobile */
+    section {
+        padding: 2rem 0;
+    }
+    
+    /* Reduce container padding on mobile */
+    .container {
+        max-width: 90%;
+        padding: 0;
     }
 } 
