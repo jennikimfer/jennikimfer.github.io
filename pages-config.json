@@ -4,13 +4,19 @@
       "title": "jenky's coop",
       "description": "personal website",
       "section": "home",
-      "contentFile": "components/home-content.html"
+      "contentFile": "components/contents/home.html"
     },
     "about.html": {
       "title": "about the coop",
       "description": "about this site",
       "section": "about",
-      "contentFile": "components/about-content.html"
+      "contentFile": "components/contents/about.html"
+    },
+    "eggs.html": {
+      "title": "eggs",
+      "description": "some words",
+      "section": "eggs",
+      "contentFile": "components/contents/eggs/eggs.html"
     }
   }
 } 

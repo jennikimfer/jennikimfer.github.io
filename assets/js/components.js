@@ -11,11 +11,11 @@ class ComponentLoader {
     }
 
     static loadNavbar() {
-        this.loadComponent('navbar', 'components/navbar.html');
+        this.loadComponent('navbar', 'components/shared/navbar.html');
     }
 
     static loadFooter() {
-        this.loadComponent('footer', 'components/footer.html');
+        this.loadComponent('footer', 'components/shared/footer.html');
     }
 }
 

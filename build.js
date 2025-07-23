@@ -25,7 +25,7 @@ function readPageConfig() {
 // Build page using standardized layout
 function buildPage(pageName, pageConfig, navbar, footer) {
     // Read the page layout template
-    let pageLayout = readComponent('components/page-layout.html');
+    let pageLayout = readComponent('components/shared/page-layout.html');
     
     // Read the page content
     const pageContent = readComponent(pageConfig.contentFile);
@@ -48,8 +48,8 @@ function build() {
     console.log('Building static pages with standardized layout...');
     
     // Read components
-    const navbar = readComponent('components/navbar.html');
-    const footer = readComponent('components/footer.html');
+    const navbar = readComponent('components/shared/navbar.html');
+    const footer = readComponent('components/shared/footer.html');
     
     // Read page configuration
     const pageConfig = readPageConfig();

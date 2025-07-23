@@ -13,11 +13,14 @@ jennikimfer.github.io/
 ├── package.json           # Project configuration
 ├── pages-config.json      # Page configuration and metadata
 ├── components/            # Reusable HTML components
-│   ├── navbar.html        # Navigation component
-│   ├── footer.html        # Footer component
-│   ├── page-layout.html   # Standardized page layout template
-│   ├── home-content.html  # Home page content
-│   └── about-content.html # About page content
+│   ├── shared/           # Shared components used across all pages
+│   │   ├── navbar.html   # Navigation component
+│   │   ├── footer.html   # Footer component
+│   │   └── page-layout.html # Standardized page layout template
+│   └── contents/         # Page-specific content components
+│       ├── home-content.html  # Home page content
+│       ├── about-content.html # About page content
+│       └── eggs-content.html  # Eggs page content
 └── assets/                # Static assets
     ├── css/
     │   └── style.css      # Main stylesheet
@@ -52,9 +55,9 @@ jennikimfer.github.io/
 2. Install dependencies (if any): `npm install`
 
 ### Development Workflow
-1. **Edit page content** in the `components/` folder (e.g., `home-content.html`, `about-content.html`)
+1. **Edit page content** in the `components/contents/` folder (e.g., `home.html`, `about.html`)
 2. **Edit page metadata** in `pages-config.json`
-3. **Edit components** in the `components/` folder
+3. **Edit shared components** in the `components/shared/` folder
 4. **Edit styles** in `assets/css/style.css`
 5. **Add images** to `assets/images/` folder
 6. **Test locally** by running the build script and opening files in your browser
@@ -62,14 +65,14 @@ jennikimfer.github.io/
 ### Standardized Page System
 The website uses a standardized page layout system:
 
-- **`components/page-layout.html`** - Master template for all pages
-- **`components/*-content.html`** - Page-specific content components
+- **`components/shared/page-layout.html`** - Master template for all pages
+- **`components/contents/*.html`** - Page-specific content components
 - **`pages-config.json`** - Page metadata and configuration
 
 ### Component System
 The website uses a JavaScript-based component system:
-- **`components/navbar.html`** - Navigation sidebar
-- **`components/footer.html`** - Footer content
+- **`components/shared/navbar.html`** - Navigation sidebar
+- **`components/shared/footer.html`** - Footer content
 - **`assets/js/components.js`** - Loads components into pages
 
 ## Building Static Pages
@@ -101,9 +104,9 @@ The build script creates a `dist/` folder containing:
 
 ### Method 1: Using the Standardized System (Recommended)
 
-1. **Create a content component** in `components/` folder:
+1. **Create a content component** in `components/contents/` folder:
    ```html
-   <!-- components/contact-content.html -->
+   <!-- components/contents/contact-content.html -->
    <h2>Contact Me</h2>
    <p>Get in touch with me...</p>
    <p>Email: your.email@example.com</p>
@@ -117,7 +120,7 @@ The build script creates a `dist/` folder containing:
          "title": "Contact",
          "description": "Contact Your Name - Get in touch",
          "section": "contact",
-         "contentFile": "components/contact-content.html"
+         "contentFile": "components/contents/contact.html"
        }
      }
    }
