@@ -1,0 +1,16 @@
+{
+  "pages": {
+    "index.html": {
+      "title": "jenky's coop",
+      "description": "personal website",
+      "section": "home",
+      "contentFile": "components/home-content.html"
+    },
+    "about.html": {
+      "title": "about the coop",
+      "description": "about this site",
+      "section": "about",
+      "contentFile": "components/about-content.html"
+    }
+  }
+} 
