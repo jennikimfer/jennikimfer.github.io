@@ -367,7 +367,7 @@ footer {
     
     /* Mobile text sizing */
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     section h1 {
@@ -408,7 +408,7 @@ footer {
     
     .container {
         max-width: 100%;
-        padding: 0;
+        padding: 1rem;
     }
     
     .footer-content {
@@ -433,11 +433,6 @@ footer {
         padding: 2rem 0;
     }
     
-    /* Reduce container padding on mobile */
-    .container {
-        max-width: 90%;
-        padding: 0;
-    }
 
     /* Mobile image sizing */
     .about-image {
