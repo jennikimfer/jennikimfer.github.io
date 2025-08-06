@@ -35,6 +35,15 @@
       "subtitle": "and the coulds that accompany it",
       "date": "6 August 2025",
       "contentFile": "components/contents/eggs/egg_1.html"
+    },
+    "eggs/egg_2.html": {
+      "title": "the desire for love",
+      "description": "a fictional postmortem",
+      "section": "eggs",
+      "layout": "egg",
+      "subtitle": "when we try and when we don't",
+      "date": "6 August 2025",
+      "contentFile": "components/contents/eggs/egg_2.html"
     }
   }
 } 
