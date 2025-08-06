@@ -26,6 +26,15 @@
       "subtitle": "the reason i made this website",
       "date": "23 July 2025",
       "contentFile": "components/contents/eggs/egg_0.html"
+    },
+    "eggs/egg_1.html": {
+      "title": "noise",
+      "description": "how i feel far too often",
+      "section": "eggs",
+      "layout": "egg",
+      "subtitle": "and the coulds that accompany it",
+      "date": "6 August 2025",
+      "contentFile": "components/contents/eggs/egg_1.html"
     }
   }
 } 
